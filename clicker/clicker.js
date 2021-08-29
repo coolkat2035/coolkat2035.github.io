@@ -1,9 +1,10 @@
 var count = 0;
 $(".top").show();
+$(".bottom").hide();
 
 function open() {
     $(".top").hide();
-    $(".bottom").show()
+    $(".bottom").show();
 };
 
 function increase() {
