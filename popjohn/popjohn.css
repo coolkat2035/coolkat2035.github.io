@@ -4,13 +4,11 @@ body {
     font-family: "Trebuchet MS";
 }
 
-.johnny {
+.clicker {
     position: absolute;
     margin: auto;
     width: 50vmin;
 }
-
-
 
 .text {
     margin: auto;
