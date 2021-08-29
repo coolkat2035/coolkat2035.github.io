@@ -8,6 +8,7 @@ function open() {
 
 function increase() {
     $(".top").show();
+    $(".bottom").hide();
     count = count + 1;
     $("#counter").text(count);
 };
@@ -15,7 +16,5 @@ function increase() {
 $(document).keydown(open);
 $(document).keyup(increase);
 
-$(document).mousedown(function() {
-    $(".top").hide();
-});
+$("#clickarea").mousedown(open);
 $("#clickarea").mouseup(increase);
